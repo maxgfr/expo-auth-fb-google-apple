@@ -2,6 +2,7 @@
   "expo": {
     "name": "expo-auth-fb-google-apple",
     "slug": "expo-auth-fb-google-apple",
+    "scheme": "expo-auth-fb-google-apple",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
