@@ -106,7 +106,7 @@ export default function App() {
         onPress={_onAuthApple}
       />
       <View style={styles.tree}>
-      <JSONTree data={jsonObject} />
+        <JSONTree data={jsonObject} />
       </View>
     </ScrollView>
   );
