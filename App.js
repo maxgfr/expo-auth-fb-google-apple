@@ -2,7 +2,9 @@
 import React, { useState } from 'react';
 import {
   StyleSheet,
-  Button,
+  TouchableOpacity,
+  ScrollView,
+  Text,
   View
 } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
@@ -10,6 +12,8 @@ import * as AppleAuthentication from 'expo-apple-authentication';
 import * as Facebook from 'expo-facebook';
 import * as Google from 'expo-google-app-auth';
 import JSONTree from 'react-native-json-tree';
+import { FontAwesome } from '@expo/vector-icons';
+
 import {
   FACEBOOK_APP_ID,
   GOOGLE_ANDROID_ID,
@@ -39,7 +43,7 @@ export default function App() {
     }
   }
 
-   _onAuthFacebook = async () => {
+  _onAuthFacebook = async () => {
     try {
       await Facebook.initializeAsync(FACEBOOK_APP_ID);
       const {
@@ -84,27 +88,55 @@ export default function App() {
   }
 
   return (
-    <View style={styles.container}>
+    <ScrollView contentContainerStyle={styles.container}>
       <StatusBar style="auto" />
-      <Button onPress={_onAuthGoogle} title="Authentification with Google"/>
-      <Button onPress={_onAuthFacebook} title="Authentification with Facebook"/>
+      <TouchableOpacity onPress={_onAuthGoogle} style={[styles.button, { backgroundColor: "#4285F4" }]}>
+        <FontAwesome name="google" size={17} color="#ffffff" />
+        <Text style={styles.text}>Sign in with Google</Text>
+      </TouchableOpacity>
+      <TouchableOpacity onPress={_onAuthFacebook} style={[styles.button, { backgroundColor: "#3b5998" }]}>
+        <FontAwesome name="facebook" size={17} color="#ffffff" />
+        <Text style={styles.text}>Sign in with Facebook</Text>
+      </TouchableOpacity>
       <AppleAuthentication.AppleAuthenticationButton
         buttonType={AppleAuthentication.AppleAuthenticationButtonType.SIGN_IN}
         buttonStyle={AppleAuthentication.AppleAuthenticationButtonStyle.BLACK}
         cornerRadius={5}
-        style={{ width: 200, height: 44 }}
+        style={{ width: 300, height: 50, marginBottom: 20 }}
         onPress={_onAuthApple}
       />
+      <View style={styles.tree}>
       <JSONTree data={jsonObject} />
-    </View>
+      </View>
+    </ScrollView>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
+    flexGrow: 1,
     backgroundColor: '#fff',
     alignItems: 'center',
-    justifyContent: 'center',
+    justifyContent: 'center'
   },
+  text: {
+    fontWeight: '600',
+    fontSize: 19,
+    color: '#ffffff',
+    marginLeft: 5
+  },
+  button: {
+    width: 300,
+    height: 50,
+    backgroundColor: "#4285F4",
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderRadius: 5,
+    marginBottom: 20,
+    flexDirection: 'row'
+  },
+  tree: {
+    paddingHorizontal: 100,
+    marginBottom: 20
+  }
 });

@@ -8,6 +8,7 @@
     "eject": "expo eject"
   },
   "dependencies": {
+    "@expo/vector-icons": "^10.2.0",
     "expo": "~38.0.8",
     "expo-apple-authentication": "~2.2.1",
     "expo-facebook": "~8.2.1",
