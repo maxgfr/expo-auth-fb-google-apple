@@ -14,8 +14,6 @@ Expo application using google, facebook and apple authentification
 
 ## Screenshot
 
-## Screenshot
-ss
 <div align="center">
   <img src="https://github.com/maxgfr/expo-auth-fb-google-apple/blob/master/.github/screenshot.png" height="540" width="280"/>
 </div>
