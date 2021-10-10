@@ -12,7 +12,7 @@
     "expo": "~38.0.8",
     "expo-apple-authentication": "~2.2.1",
     "expo-facebook": "~8.2.1",
-    "expo-google-app-auth": "^8.1.2",
+    "expo-google-app-auth": "^8.2.2",
     "expo-status-bar": "^1.0.2",
     "react": "~16.11.0",
     "react-dom": "~16.11.0",
