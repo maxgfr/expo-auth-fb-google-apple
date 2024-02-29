@@ -1,0 +1,199 @@
+repo_name: maxgfr/expo-auth-fb-google-apple
+report_id: e35efbc2cdead5ad26fad2aec50e5ebe
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T18:33:26+00:00'
+requested_by: maxgfr
+provider: github
+branch: master
+detected_tools_count: 14
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/maxgfr/expo-auth-fb-google-apple
+  detection_source: Repo Metadata
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 16.11.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/maxgfr/expo-auth-fb-google-apple/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: "@maxgfr"
+  last_updated_on: 2020-07-04 13:45:33.000000000 Z
+- name: React Native
+  description: A framework for building native apps with React
+  website_url: http://facebook.github.io/
+  version: 0.62.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Cross-Platform Mobile Development
+  image_url: https://img.stackshare.io/service/2699/KoK6gHzp.jpg
+  detection_source_url: https://github.com/maxgfr/expo-auth-fb-google-apple/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: "@maxgfr"
+  last_updated_on: 2020-07-04 13:45:33.000000000 Z
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  version: 7.10.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: https://github.com/maxgfr/expo-auth-fb-google-apple/blob/master/yarn.lock
+  detection_source: babel.config.js
+  last_updated_by: "@maxgfr"
+  last_updated_on: 2020-07-04 13:45:33.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/maxgfr/expo-auth-fb-google-apple
+  detection_source: Repo Metadata
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/maxgfr/expo-auth-fb-google-apple/blob/master/yarn.lock
+  detection_source: yarn.lock
+  last_updated_by: "@maxgfr"
+  last_updated_on: 2020-07-03 13:59:56.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/maxgfr/expo-auth-fb-google-apple/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: "@maxgfr"
+  last_updated_on: 2020-07-03 13:59:56.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/maxgfr/expo-auth-fb-google-apple
+  detection_source: Repo Metadata
+- name: "@babel/core"
+  description: Babel compiler core
+  package_url: https://www.npmjs.com/@babel/core
+  version: 7.10.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15810/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/maxgfr/expo-auth-fb-google-apple/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: "@maxgfr"
+  last_updated_on: 2020-07-04 13:45:33.000000000 Z
+- name: babel-preset-expo
+  description: The Babel preset for Expo projects
+  package_url: https://www.npmjs.com/babel-preset-expo
+  version: 8.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18526/default_6d0416098b5583c02111044f891c8f1f8e30a97e.png
+  detection_source_url: https://github.com/maxgfr/expo-auth-fb-google-apple/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: "@maxgfr"
+  last_updated_on: 2020-07-04 14:22:28.000000000 Z
+- name: expo
+  description: The Expo SDK
+  package_url: https://www.npmjs.com/expo
+  version: 38.0.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17801/default_78858facb60c08d15198eb69a6c7f48463f2c09f.png
+  detection_source_url: https://github.com/maxgfr/expo-auth-fb-google-apple/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: "@maxgfr"
+  last_updated_on: 2020-07-04 14:22:28.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 16.11.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/maxgfr/expo-auth-fb-google-apple/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: "@maxgfr"
+  last_updated_on: 2020-07-04 13:45:33.000000000 Z
+- name: react-native
+  description: A framework for building native apps using React
+  package_url: https://www.npmjs.com/react-native
+  version: 0.62.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16064/default_5a461d436012a0c4024534aaba303dcdb0297d24.png
+  detection_source_url: https://github.com/maxgfr/expo-auth-fb-google-apple/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: "@maxgfr"
+  last_updated_on: 2020-07-04 13:45:33.000000000 Z
+  vulnerabilities:
+  - name: Regular expression denial of service in react-native
+    cve_id: CVE-2020-1920
+    cve_url: https://github.com/advisories/GHSA-7f53-fmmv-mfjv
+    detected_date: Aug 22
+    severity: high
+    first_patched: 0.62.3
+- name: react-native-web
+  description: React Native for Web
+  package_url: https://www.npmjs.com/react-native-web
+  version: 0.11.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17683/default_894a45ad01fa93ac472db719cb1ef1b89f2924f0.png
+  detection_source_url: https://github.com/maxgfr/expo-auth-fb-google-apple/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: "@maxgfr"
+  last_updated_on: 2020-07-04 13:45:33.000000000 Z
